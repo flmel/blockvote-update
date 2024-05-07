@@ -48,6 +48,7 @@ export default function App({ isSignedIn, contractId, wallet }) {
 
   const signOutFun = () => {
     wallet.signOut();
+    // console.log("signed out")
   };
 
   const getPrompts = async () => {
